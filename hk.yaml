@@ -1,0 +1,154 @@
+# 本地/局域网地址
+# 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
+payload:
+  #美国Dsiney+
+  - DOMAIN-SUFFIX,disney-plus.net
+  - DOMAIN-SUFFIX,disneyplus.com
+  - DOMAIN,cdn.registerdisney.go.com
+  - DOMAIN-SUFFIX,cdn.registerdisney.go.com
+  - DOMAIN-SUFFIX,adobedtm.com
+  - DOMAIN-SUFFIX,bam.nr-data.net
+  - DOMAIN-SUFFIX,bamgrid.com
+  - DOMAIN-SUFFIX,braze.com
+  - DOMAIN-SUFFIX,cdn.optimizely.com
+  - DOMAIN-SUFFIX,d9.flashtalking.com
+  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com
+  - DOMAIN-SUFFIX,disney.demdex.net
+  - DOMAIN-SUFFIX,disney.my.sentry.io
+  - DOMAIN-SUFFIX,disneyplus.bn5x.net
+  - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
+  - DOMAIN-SUFFIX,disneystreaming.com
+  - DOMAIN-SUFFIX,dssott.com
+  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+  - DOMAIN-SUFFIX,js-agent.newrelic.com
+  - DOMAIN-SUFFIX,disney.connections.edge.bamgrid.com
+  #竞猜网站
+  - DOMAIN-SUFFIX,polymarket.com
+  - DOMAIN-SUFFIX,polymarketcn.com
+  - DOMAIN,polymarket.com
+  #凤凰秀
+  - DOMAIN-SUFFIX,fengshows.com
+  #卡巴斯基
+  - DOMAIN-SUFFIX,kaspersky-labs.com
+  - DOMAIN-SUFFIX,kaspersky.com
+  #国泰航空
+  - DOMAIN-SUFFIX,cathaypacific.com
+  #万豪
+  - DOMAIN-SUFFIX,marriott.com
+  - DOMAIN-SUFFIX,demdex.net
+  - DOMAIN-SUFFIX,omtrdc.net
+  #dropbox
+  - DOMAIN-SUFFIX,dropbox.com,extended-matching
+  - DOMAIN-SUFFIX,dropboxapi.com,extended-matching
+  #地震的一个api
+  - DOMAIN-SUFFIX,kyoshin.bousai.cn
+  - DOMAIN-SUFFIX,api.wolfx.jp
+  - DOMAIN-SUFFIX,api.projectbs.cn
+  #NowE和Viu
+  - DOMAIN-SUFFIX,nowe.com
+  - DOMAIN-SUFFIX,now.com
+  - DOMAIN-SUFFIX,now-tv.com
+  - DOMAIN-SUFFIX,nowestatic.com
+  - DOMAIN-SUFFIX,viu.com
+  - DOMAIN-SUFFIX,viu.tv
+  - DOMAIN-SUFFIX,viu.now.com
+  - DOMAIN-SUFFIX,t.clarity.ms
+  - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
+  - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
+  - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
+  - DOMAIN-SUFFIX,bootstrapcdn.com
+  - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
+  - DOMAIN-SUFFIX,jwpcdn.com
+  - DOMAIN-SUFFIX,jwplayer.com
+  - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
+  - DOMAIN-SUFFIX,infinity-c15.youboranqs01.com
+  - DOMAIN-SUFFIX,licensing.bitmovin.com
+  - DOMAIN-SUFFIX,ottuat.com
+  - DOMAIN-SUFFIX,d3o7oi00quuwqu.cloudfront.net
+  - DOMAIN-SUFFIX,viu_aws.m3u8
+  - DOMAIN-SUFFIX,pccw-live-cdn-viutv.akamaized.net
+  #马来西亚电视台直播姑且划到香港的部分
+  - DOMAIN-SUFFIX,secureswiftcontent.com
+  - DOMAIN-SUFFIX,rtm.gov.my
+  #亚洲HBO
+  - DOMAIN-KEYWORD,.hbogoasia.
+  - DOMAIN-KEYWORD,hbogoasia
+  - DOMAIN-SUFFIX,hboasia.com
+  - DOMAIN-SUFFIX,hbogoasia.com
+  - DOMAIN-SUFFIX,hbogoasia.hk
+  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+  - DOMAIN,bcbolthboa-a.akamaihd.net
+  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
+  - DOMAIN-SUFFIX,dai3fd1oh325y.cloudfront.net
+  - DOMAIN,hboasia1-i.akamaihd.net
+  - DOMAIN,hboasia2-i.akamaihd.net
+  - DOMAIN,hboasia3-i.akamaihd.net
+  - DOMAIN,hboasia4-i.akamaihd.net
+  - DOMAIN,hboasia5-i.akamaihd.net
+  - DOMAIN,hboasialive.akamaized.net
+  - DOMAIN-SUFFIX,hbolb.onwardsmg.com
+  - DOMAIN-SUFFIX,hbounify-prod.evergent.com
+  - DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net
+  #TVB
+  - DOMAIN-SUFFIX,tvb.com
+  - DOMAIN-SUFFIX,encoretvb.com
+  - DOMAIN-SUFFIX,mytvsuper.com
+  - DOMAIN-SUFFIX,mytvsuperlimited.sc.omtrdc.net
+  - DOMAIN-SUFFIX,tvb-message-center.appspot.com
+  - DOMAIN-SUFFIX,cdn.hgc.com.hk
+  - DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net
+  - DOMAIN-SUFFIX,cdn.tvb.com
+  #亚洲电视
+  - DOMAIN-SUFFIX,hkatv.vip
+  - DOMAIN-SUFFIX,hkatv.com
+  #香港电台
+  - DOMAIN-SUFFIX,rthktv31-live.akamaized.net
+  - DOMAIN-SUFFIX,rthktv32-live.akamaized.net
+  - DOMAIN-SUFFIX,live2.881903.com
+  - DOMAIN-SUFFIX,rthk.hk
+  - DOMAIN-SUFFIX,jwpltx.com
+  #香港01
+  - DOMAIN-SUFFIX,hk01.com
+  #香港有线电视 开电视 hoytv
+  - DOMAIN-SUFFIX,i-cable.com
+  - DOMAIN-SUFFIX,hkopentv.com
+  - IP-CIDR,61.10.2.0/24,no-resolve
+  - DOMAIN-SUFFIX,d3lbtdzocyu3ke.cloudfront.net
+  - DOMAIN-SUFFIX,hoy.tv
+  - DOMAIN-SUFFIX,e1.o.lencr.org
+  - DOMAIN-SUFFIX,vjs.zencdn.net
+  - DOMAIN-SUFFIX,opentv-prod.s3.ap-southeast-1.amazonaws.com
+  - DOMAIN-SUFFIX,d2xfs6sovnvkw9.cloudfront.net
+  - DOMAIN-SUFFIX,icable-prod.s3.ap-southeast-1.amazonaws.com
+  - DOMAIN,s3-ap-southeast-1.amazonaws.com
+  #UTV
+  - DOMAIN-SUFFIX,cmishow.com
+  - DOMAIN-SUFFIX,cdn.hk.chinamobile.com
+  - DOMAIN-SUFFIX,hk.chinamobile.com
+  - DOMAIN-SUFFIX,utvlive.top
+  - IP-CIDR,223.121.14.0/24,no-resolve
+  #墨西哥特莱维萨电视台
+  - DOMAIN-SUFFIX,channel02-notusa.akamaized.net
+  - DOMAIN-SUFFIX,nmas.com.mx
+  #西班牙TVE电视台
+  - DOMAIN-SUFFIX,rtve.es
+  #adobe
+  - DOMAIN-SUFFIX,adobe.com
+  - DOMAIN-SUFFIX,adobe.io
+  - DOMAIN-SUFFIX,adobess.com
+  - DOMAIN-SUFFIX,adobecces.com
+  - DOMAIN-SUFFIX,adobelogin.com
+  - DOMAIN-SUFFIX,typekit.com
+  - DOMAIN-SUFFIX,adobeccstatic.com
+  - DOMAIN-SUFFIX,astockcdn.net
+  #下面这个之前在派拉蒙和CBS那边，可能是共用的
+  - DOMAIN-SUFFIX,ingest.sentry.io
+  #叠纸文化
+  - DOMAIN-SUFFIX,infoldgames.com
+  - DOMAIN-KEYWORD,gmail
+  #不知道是什么
+  - IP-CIDR,43.128.15.113/24,no-resolve
+  - IP-CIDR,195.154.222.141/32,no-resolve
+  - IP-CIDR,5.255.121.204/32,no-resolve
+  #香港根域名判断
+  - DOMAIN-SUFFIX,hk
